@@ -1,0 +1,1 @@
+$(window).on("load",function(){var a=$("#page-preloader");a.find(".spinner").fadeOut(),a.delay(350).fadeOut("slow")});
