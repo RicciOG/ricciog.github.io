@@ -1,1 +1,1 @@
-$(window).on("load",function(){var a=$("#page-preloader");a.find(".spinner").fadeOut(),a.delay(350).fadeOut("slow")});
+$(window).on("load",function(){setTimeout(function(){var e=$("#page-preloader");e.find(".spinner").fadeOut(),e.delay(350).fadeOut("slow")},1e3)});
